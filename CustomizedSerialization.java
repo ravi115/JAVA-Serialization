@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 
 /*
- *in the serialization every data will get stored in file. but if we don't want to store any variable ORIGINAL DATA 
+ *in the serialization every data will get stored in file. but if we don't want to store any variable's ORIGINAL DATA 
  *in serialization we use transient key word. so that variable in serialization gets initialized
  *with default value. but we want to retain the same original value. here we need to do some extra work.
  *
